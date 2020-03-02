@@ -1,0 +1,6 @@
+.accordion{
+  width: 675px;
+  height: 10px;
+  content: "\e114";    /* adjust as needed, taken from bootstrap.css */   /* adjust as needed */
+  content: "\e080";
+}
