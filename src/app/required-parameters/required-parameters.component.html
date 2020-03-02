@@ -1,5 +1,9 @@
-<accordion class = "accordion" [isAnimated]="true">
-  <accordion-group heading="Required Parameters">
-    This content is straight in the template.
-  </accordion-group>
-</accordion>
+<div>
+  <button type="button" class="btn btn-light" (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic">Required Parameters
+  </button>
+</div>
+<div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+  <div class="well well-lg card card-block card-header">Some content</div>
+</div>
+<hr class="hr" align="left">

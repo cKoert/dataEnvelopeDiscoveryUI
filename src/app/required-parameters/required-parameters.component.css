@@ -1,6 +1,13 @@
-.accordion{
-  width: 675px;
-  height: 10px;
-  content: "\e114";    /* adjust as needed, taken from bootstrap.css */   /* adjust as needed */
-  content: "\e080";
+.btn{
+  border-radius: 0;
+
+}
+
+#collapseBasic{
+  background-color: white;
+  width: 44%;
+  border-radius: 0;
+}
+.hr{
+  width: 44%;
 }

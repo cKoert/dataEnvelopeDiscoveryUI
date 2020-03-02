@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
-import { AccordionModule} from 'ngx-bootstrap/accordion';
+import { CollapseModule} from 'ngx-bootstrap/collapse';
 
 
 @NgModule({
@@ -27,7 +27,7 @@ import { AccordionModule} from 'ngx-bootstrap/accordion';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    AccordionModule.forRoot()
+    CollapseModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
