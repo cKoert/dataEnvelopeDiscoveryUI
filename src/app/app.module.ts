@@ -11,13 +11,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { CollapseModule} from 'ngx-bootstrap/collapse';
+import { OptionalParametersComponent } from './optional-parameters/optional-parameters.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SourceTypeComponent,
-    RequiredParametersComponent
+    RequiredParametersComponent,
+    OptionalParametersComponent
   ],
   imports: [
     BrowserModule,
