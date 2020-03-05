@@ -5,13 +5,16 @@ import { AppComponent } from './app.component';
 
 import { SourceTypeComponent } from './source-type/source-type.component';
 import { RequiredParametersComponent } from './required-parameters/required-parameters.component';
+import { OptionalParametersComponent } from './optional-parameters/optional-parameters.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { CollapseModule} from 'ngx-bootstrap/collapse';
-import { OptionalParametersComponent } from './optional-parameters/optional-parameters.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+
+
 
 
 @NgModule({
@@ -29,7 +32,8 @@ import { OptionalParametersComponent } from './optional-parameters/optional-para
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    CollapseModule.forRoot()
+    CollapseModule.forRoot(),
+    BsDatepickerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
